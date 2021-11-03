@@ -1,0 +1,38 @@
+.hmb_tbl table {
+  font-family: '돋움',Dotum,Helvetica;
+  width: 100%;
+  margin-top: -30px;
+  margin-bottom: -1px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.hmb_tbl caption {
+  height: 30px;
+  text-indent: 0;
+}
+caption {
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.hmb_tbl thead th {
+  padding: 8px 0 6px;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #fbfbfb;
+  color: #999;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: -1px;
+}
+
+.hmb_tbl tbody th, .hmb_tbl tbody td {
+  font-family: '돋움',Dotum,Helvetica;
+  padding: 10px 0 7px;
+  border-bottom: 1px solid #f2f2f2;
+  color: #222;
+  text-align: center;
+}
